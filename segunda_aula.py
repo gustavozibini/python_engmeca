@@ -1,0 +1,1 @@
+# fazer os 3 primeiros exercicios
