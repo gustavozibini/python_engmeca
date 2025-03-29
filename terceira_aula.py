@@ -97,4 +97,4 @@
 #
 # print(f"O salario com reajuste de 35% é de R${reajuste:.2f}")
 
-#final.
+#final
