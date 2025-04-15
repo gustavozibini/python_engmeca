@@ -32,7 +32,7 @@
 #     print(f"O menor numero é {num2}")
 # elif num3 <= num1 and num3 <= num2:
 #     print(f"O menor numero é {num3}")
-#
+
 # maior = num1
 # if num2 >= num1 and num2 >= num3:
 #     maior = num2
@@ -44,7 +44,7 @@
 #     maior = num2
 # if num3 >= num1 and num3 >= num2:
 #     maior = num3
-#
+
 # print(maior)
 # print(menor)
 #
@@ -134,7 +134,7 @@
 #     print("Aprovado!")
 # else:
 #     print("Reprovado!")
-
+#
 # # EX9
 # nota1 = float(input("Digite a 1ª nota: "))
 # nota2 = float(input("Digite a 2ª nota: "))
@@ -145,3 +145,22 @@
 #     print("Exame!")
 # else:
 #     print("Reprovado!")
+
+# n1 = float(input(""))
+# n2 = float(input(""))
+# op = input("operação: + - * /")
+# if op == "+" :
+#     res = n1 + n2
+# elif op == "-" :
+#     res = n1 - n2
+# elif op == "*" :
+#     res = n1 * n2
+# elif op == "/" :
+#     res = n1 / n2
+# else :
+#     res = None
+# if res is None :
+#     print ("operacao invalida")
+# else :
+#     print (f"resultado: {res}")
+
