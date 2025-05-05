@@ -15,13 +15,3 @@
 # print(f"Resultado: {soma}")
 #
 # fim = int(input("digite o number"))
-# x = 1
-# while x <= fim:
-#     print(x)
-#     x += 2
-#
-# fim = int(input("digite o number"))
-# x = 3
-# while x <= 30:
-#     print(x)
-#     x += 3
