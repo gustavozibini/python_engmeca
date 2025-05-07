@@ -52,7 +52,7 @@
 #     print(f"{tabuada} x {n1} =",tabuada * n1)
 #     n1 =  n1 + 1
 #
-#exercicio8
+# exercicio8
 # deposito = float(input("Deposito: "))
 # taxa = float(input("Taxa de juros: "))
 # mes = 1
@@ -62,18 +62,18 @@
 #     mes = mes + 1
 # print(f"O ganho com juros foi de R${deposito:.2f}.")
 #
-#EXERCICIO9
-# deposito = float(input("Deposito: "))
-# taxa = float(input("Taxa de juros: "))
-# investimento = float(input("Investimento mensal: "))
-# mes = 1
-# while mes <= 24:
-#     deposito = deposito + (deposito * (taxa / 100)) + investimento
-#     print(f"Saldo do mês {mes} é de R${deposito:.2f}.")
-#     mes = mes + 1
-# print(f"O ganho com juros foi de R${deposito:.2f}.")
-#
-#EXERCICIO10
+EXERCICIO9
+deposito = float(input("Deposito: "))
+taxa = float(input("Taxa de juros: "))
+investimento = float(input("Investimento mensal: "))
+mes = 1
+while mes <= 24:
+    deposito = deposito + (deposito * (taxa / 100)) + investimento
+    print(f"Saldo do mês {mes} é de R${deposito:.2f}.")
+    mes = mes + 1
+print(f"O ganho com juros foi de R${deposito:.2f}.")
+# #
+# EXERCICIO10
 # soma = 0
 # cont = 0
 # while True:
@@ -85,27 +85,27 @@
 # print("quantidade de numeros:", cont)
 # print("Soma=", soma)
 # print(f"Media={soma/cont:.2f}")
-
-# EXERCICIO11
-apagar = 0
-while True:
-    codigo = int(input("Código do produto (0 para sair): "))
-    preco = 0
-    if codigo == 0:
-        break
-    elif codigo == 1:
-        preco = 0.5
-    elif codigo == 2:
-        preco = 1
-    elif codigo == 3:
-        preco = 4
-    elif codigo == 5:
-        preco = 7
-    elif codigo == 9:
-        preco = 8
-    else:
-        print("Código inválido!")
-    if preco != 0:
-        quantidade = int(input("Quantidade: "))
-        apagar = apagar+ (preco * quantidade)
-print(f"Total a pagar R${apagar:.2f}")
+#
+# # EXERCICIO11
+# apagar = 0
+# while True:
+#     codigo = int(input("Código do produto (0 para sair): "))
+#     preco = 0
+#     if codigo == 0:
+#         break
+#     elif codigo == 1:
+#         preco = 0.5
+#     elif codigo == 2:
+#         preco = 1
+#     elif codigo == 3:
+#         preco = 4
+#     elif codigo == 5:
+#         preco = 7
+#     elif codigo == 9:
+#         preco = 8
+#     else:
+#         print("Código inválido!")
+#     if preco != 0:
+#         quantidade = int(input("Quantidade: "))
+#         apagar = apagar+ (preco * quantidade)
+# print(f"Total a pagar R${apagar:.2f}")
