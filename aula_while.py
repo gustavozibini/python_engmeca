@@ -62,16 +62,18 @@
 #     mes = mes + 1
 # print(f"O ganho com juros foi de R${deposito:.2f}.")
 #
-EXERCICIO9
-deposito = float(input("Deposito: "))
-taxa = float(input("Taxa de juros: "))
-investimento = float(input("Investimento mensal: "))
-mes = 1
-while mes <= 24:
-    deposito = deposito + (deposito * (taxa / 100)) + investimento
-    print(f"Saldo do mês {mes} é de R${deposito:.2f}.")
-    mes = mes + 1
-print(f"O ganho com juros foi de R${deposito:.2f}.")
+#
+#
+# EXERCICIO9
+# deposito = float(input("Deposito: "))
+# taxa = float(input("Taxa de juros: "))
+# investimento = float(input("Investimento mensal: "))
+# mes = 1
+# while mes <= 24:
+#     deposito = deposito + (deposito * (taxa / 100)) + investimento
+#     print(f"Saldo do mês {mes} é de R${deposito:.2f}.")
+#     mes = mes + 1
+# print(f"O ganho com juros foi de R${deposito:.2f}.")
 # #
 # EXERCICIO10
 # soma = 0

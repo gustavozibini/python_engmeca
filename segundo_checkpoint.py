@@ -1,8 +1,9 @@
 #Nomes: Gustavo Zibini Belizario RM: 561376  João Vitor RM: 562126
+semestre = 0
 sem1 = 0
 sem2 = 0
 
-semestre = int(input("Digite o semestre (1 ou 2): "))
+# semestre = int(input("Digite o semestre (1 ou 2): "))
 
 while semestre <= 2:
     # Leitura das notas
