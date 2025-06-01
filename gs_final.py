@@ -1,5 +1,6 @@
-# Gustavo Zibini Belizario
-# Gabriel
+#link do vídeo:
+# Gustavo Zibini Belizario RM:561376
+# Gabriel Bastos Nhoncanse RM:562022
 # 1EMR
 
 
