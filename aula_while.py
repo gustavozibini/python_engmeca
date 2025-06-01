@@ -89,25 +89,27 @@
 # print(f"Media={soma/cont:.2f}")
 #
 # # EXERCICIO11
-# apagar = 0
+# soma = 0
 # while True:
-#     codigo = int(input("Código do produto (0 para sair): "))
-#     preco = 0
+#     codigo = int(input("digite o código do produto: "))
+#     vlr = 0
 #     if codigo == 0:
 #         break
 #     elif codigo == 1:
-#         preco = 0.5
+#         vlr = 0.1
 #     elif codigo == 2:
-#         preco = 1
+#         vlr = 0.2
 #     elif codigo == 3:
-#         preco = 4
+#         vlr = 0.3
+#     elif codigo == 4:
+#         vlr = 0.4
 #     elif codigo == 5:
-#         preco = 7
-#     elif codigo == 9:
-#         preco = 8
+#         vlr = 0.5
+#     elif codigo == 6:
+#          vlr = 0.6
 #     else:
-#         print("Código inválido!")
-#     if preco != 0:
-#         quantidade = int(input("Quantidade: "))
-#         apagar = apagar+ (preco * quantidade)
-# print(f"Total a pagar R${apagar:.2f}")
+#         print("Digite o código correto apenas de 1 até 6")
+#     if vlr != 0:
+#         quantidade = int(input("quantidade: "))
+#         soma = soma + (vlr * quantidade)
+# print(f"total a pagar R$: {soma:.2f}")
