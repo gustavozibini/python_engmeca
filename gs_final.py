@@ -1,10 +1,7 @@
-#link do vídeo:
+#link do vídeo: https://youtu.be/s3uVvFQrWHY?si=CTQdUlXbGsKK9YhA
 # Gustavo Zibini Belizario RM:561376
 # Gabriel Bastos Nhoncanse RM:562022
 # 1EMR
-
-
-
 
 #---------------------------------listas para armazenar as leituras---------------------------------
 #onde vai armazenar as leituras
