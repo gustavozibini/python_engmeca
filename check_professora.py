@@ -13,12 +13,14 @@ while semestre <=2:
     gs = float(input("Global Solution (0 a 10) = "))
 
 # Descartar o menor checkpoint usando if
-    if cp1 <= cp2 and cp1 <= cp3:
-        soma_checkpoints = cp2 + cp3
-    elif cp2 <= cp1 and cp2 <= cp3:
-        soma_checkpoints = cp1 + cp3
-    else:
-        soma_checkpoints = cp1 + cp2
+notas = []
+
+    # if cp1 <= cp2 and cp1 <= cp3:
+    #     soma_checkpoints = cp2 + cp3
+    # elif cp2 <= cp1 and cp2 <= cp3:
+    #     soma_checkpoints = cp1 + cp3
+    # else:
+    #     soma_checkpoints = cp1 + cp2
 
 # Calcular a média dos dois melhores checkpoints e das duas sprints
 media_check_sprints = (soma_checkpoints + sprint1 + sprint2) / 4
