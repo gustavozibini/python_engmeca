@@ -15,20 +15,54 @@
 # print(rm_alunos.values())
 
 
-tabela = {"engenharia mecatrônica": ["2200,00", "60 Meses", "presencial"],
-        "inteligência artificial": ["1800,00", "24 Meses", "ead"],
-        "quimica": ["2200,00", "60 Meses", "presencial"],
-        "cloud": ["800,00", "25 Meses", "ead"],
-        "redes": ["1200,00", "34 Meses", "presencial"],
-        "sistemas": ["1500,00", "12 Meses", "ead"]}
+# cursos = {"mecatronica": [2200, "60 Meses", "presencial", 60],
+#         "ia":           [1800, "24 Meses", "ead", 50 ],
+#         "quimica":      [2560, "60 Meses", "presencial", 40],
+#         "cloud":        [800, "25 Meses", "ead", 30],
+#         "redes":        [1200, "34 Meses", "presencial", 20],
+#         "sistemas":     [1500, "12 Meses", "ead", 10]}
+#
+# turma = 0
+# while True:
+#     curso = input("Digite o nome do curso ou sair: ").lower()
+#     if curso == "sair":
+#         break
+#     if curso in cursos:
+#         valor, duracao, formato, vagas = cursos[curso]
+#         print(f"Valor: R$ {valor}\nDuração: {duracao}\nTipo: {formato}\nVagas: {vagas}")
+#     else:
+#         print("valor nao encontrado")
 
+cursos = {
+    "mecatronica":  [2200.50, "60 Meses", "presencial", 60],
+    "ia":           [1800.00, "24 Meses", "ead",        50],
+    "quimica":      [2560.00, "60 Meses", "presencial", 40],
+    "cloud":        [800.00,  "25 Meses", "ead",        30],
+    "redes":        [1200.00, "34 Meses", "presencial", 20],
+    "sistemas":     [1500.00, "12 Meses", "ead",        1]
+}
 
 while True:
-    curso = input("Digite o nome do curso ou sair: ").lower()
+    curso = input("Digite o nome do curso ou 'sair': ").lower()
     if curso == "sair":
         break
-    if curso in tabela:
-        valor, duracao, formato = tabela[curso]
-        print(f"Valor: R$ {valor}\nDuração: {duracao}\nTipo: {formato}")
+
+    if curso in cursos:
+        valor, duracao, formato, vagas = cursos[curso]
+        print(f"Valor: R$ {valor}\nDuração: {duracao}\nTipo: {formato}\nVagas: {vagas}")
+
+        if vagas == 0:
+            print(" Turma sem vagas no momento.")
+            continue
+
+        deseja = input("Deseja se matricular (sim/não)? ").lower()
+
+        if deseja in ("sim"):
+            cursos[curso][3] -= 1  #calculo da quantidade de vagas
+            print(f" Matrícula realizada! Vagas restantes para '{curso}': {cursos[curso][3]}")
+        elif deseja in ("nao"):
+            print("Ok, matrícula não realizada.")
+        else:
+            print("Resposta inválida. Matrícula não realizada.")
     else:
         print("valor nao encontrado")
